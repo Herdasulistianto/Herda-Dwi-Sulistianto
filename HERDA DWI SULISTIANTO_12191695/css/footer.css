@@ -1,0 +1,139 @@
+.foot-one{
+    background: #0B1520;
+    color: white;
+}
+
+.foot-one .row-1{
+    float: left;
+    margin-right: 120px;
+    margin-left: 170px;
+}
+
+.foot-one .row-2{
+    float: left;
+    margin-right: 120px;
+}
+
+.foot-one .coment{
+    display: inline-block;
+    margin-top: 3px;
+    width: 500px;
+}
+
+.coment form input,
+.coment form textarea{
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color:  rgba(0,0,0,0.4);
+    border: none;
+    resize: none;
+    font: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    color:  #d1d2d2;
+    width: 100%;
+    padding: 10px;
+}
+
+.coment form input{
+    margin-bottom: 8px;
+}
+
+.coment form textarea{
+    height: 70px;
+    margin-bottom: 8px;
+}
+
+.coment form button{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color:  rgba(0,0,0,0.5);
+    color: #ffffff;
+    border: 0;
+    padding: 15px;
+    font-weight: bold;
+}
+.coment form button:hover{
+    background-color:  rgba(0,0,0,0.8);
+}
+
+.foot-one ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+    margin-top: 15px;
+}
+
+.foot-one h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.foot-one a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+.foot-one a:hover,
+.foot-one a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-one .second-bar .container{
+    height: 50px;
+}
+
+.foot-one .second-bar {
+    background: rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.foot-one .second-bar p {
+    color: rgba(255,255,255,0.7);
+    font-size: 18px;
+    text-align: center;
+    float: none;
+    padding: 0;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.foot-one .second-bar a {
+    font-size: 22px;
+    color: #9fa3a9;
+    padding: 10px;
+    transition: 0.2s;
+    line-height: 68px;
+}
+
+.foot-one .second-bar a:hover {
+    text-decoration: none;
+}
+
+.foot-one .second-bar img {
+    height:50px; 
+    vertical-align: middle;
+    margin-top: -15px;
+}
+
+.foot-one .social-icons {
+    float:none;
+}
+
+
+.foot-one .facebook:hover {
+    color: #0077e2;
+}
+
+.foot-one .google:hover {
+    color: #ef1a1a;
+}
+
+.foot-one .twitter:hover {
+    color: #00aced;
+}

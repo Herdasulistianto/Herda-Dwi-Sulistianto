@@ -1,0 +1,81 @@
+body {
+    background-color: #b4b6ba;
+    padding: 20px 0 20px 0;
+    font-family: Arial;
+}
+
+/* Center website */
+.main-kat {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+.content-kat{
+  position: relative;
+  width: 100%;
+  margin:10px 0 10px 0;
+}
+.content-kat img{
+  left: 0;
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.overlay-kat {
+  position: absolute;
+  top:0 ; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 120%;
+  padding: 3%;
+  text-align: center;
+  border-radius: 3%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.content-kat:hover .overlay-kat  {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.overlay-kat:hover{
+  transition: 0.3s;
+  padding: 7%;
+}
+
+.content-kat:hover img {
+  filter:blur(1px) brightness(80%);
+  box-shadow:0 0 20px blue;
+}
+
+.middle-kat {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.content-kat:hover .middle-kat {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 700px){
+        .content {
+        width: 100%;
+        }

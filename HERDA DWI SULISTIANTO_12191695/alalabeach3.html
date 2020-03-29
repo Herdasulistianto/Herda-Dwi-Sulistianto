@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>beach3</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/download.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <script src="js/jquery-3.3.js"></script>
+    <script src="js/slider.js"></script>
+    <script>
+        $(window).on('scroll', function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('black');
+            }
+            else{
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+</head>
+<body>
+
+        <nav>
+            <div class="logo">
+            <img src="img/DPCO2.png" alt="">
+            </div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="kategori.html">Categotry</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+
+
+    <div class="bg-gambar">
+        <div class="bg-gam-up">Beach 3</div>
+        <div><img id="myImg" src="beach4.jpg" alt="Beach 3" style="width:100%;"> 
+        </div>
+        <div class="bg-gam-down"><p>Klik gambar untuk perbesaran<p></div>
+    </div><br>
+    <div class="download"><a href="beach4.jpg" download>Download This Image</a></div> 
+        <br><br>
+
+    <div class="detail">
+        <p>Detail image</p>
+        <div class="kiri"><ul>
+            <li>Name </li>
+            <li>Genre  </li>
+            <li>Resolution  </li>
+            <li>Size  </li>
+            <li>Type  </li>
+        </ul></div>
+        <div class="kanan"><ul>
+            <li>Beach 3 </li>
+            <li>Nature  </li>
+            <li>1600 x 1200  </li>
+            <li>272 KB  </li>
+            <li>JPEG  </li>
+        </ul></div>
+    </div>
+
+
+    <footer class="foot-one">
+        <div class="row-1">
+            <h5>International Office</h5>
+                <ul>
+                    <li>Telp: +62 123456 789 Ext. 612</li>
+                    <li>Fax: +62 123456 789</li>
+                    <li>E-Mail: admin@healthygoal.co</li>
+                </ul>  
+        </div>
+
+        <div class="row-2">
+            <h5>Support</h5>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Help desk</a></li>
+                    <li><a href="#">Forums</a></li>
+                </ul>
+        </div>
+
+        <div class="coment">
+            <h5>Contact</h5>
+                <form action="#" method="post">
+                    <input type="text" name="email" placeholder="Email"><br/>
+                    <textarea name="message" placeholder="Message"></textarea><br/>
+                    <button>Send</button>
+                </form>
+        </div>
+
+        <div class="second-bar">
+           <div class="container">
+                <p>Copyright ©2030 HERDA DWI SULISTIANTO</p>
+                
+                <div class="social-icons">
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
+			</div>
+    </footer>
+    <div class="clear"></div>
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" src="img01" alt="">
+        <div id="caption"></div>
+    </div>
+
+    <script>
+    // memanggil zoom atau modal
+    var modal = document.getElementById('myModal');
+
+    // memanggil dan memasukan gambar ke modal atau zoom
+    var img = document.getElementById('myImg');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+    }
+
+    // memanggi tombol tutup
+    var span = document.getElementsByClassName("close")[0];
+
+    // ketika ditekan akan tertutup
+    span.onclick = function() { 
+    modal.style.display = "none";
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>index3</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <script src="js/jquery-3.3.js"></script>
+    <script src="js/slider.js"></script>
+    <script>
+        $(window).on('scroll', function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('black');
+            }
+            else{
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="logo">
+            <img src="img/DPCO2.png" alt="">
+            </div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="kategori.html">Categotry</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+
+<div class="main">
+
+<h1>Nature</h1>
+<hr>
+
+<ul class="breadcrumb">
+  <li><a href="home.html">Home</a></li>
+  <li><a href="kategori.html">Category</a></li>
+  <li>Vehicle</li>
+</ul>
+
+
+
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('car')"> Car</button>
+  <button class="btn" onclick="filterSelection('motor')"> Motorcycle</button>
+</div>
+
+
+<div class="row">
+  <div class="column car">
+    <div class="content">
+      <a href="alalacar1.html"><img src="car1.jpg" alt="" style="width: 300px; height: 180px;"></a>
+        <a href="alalacar1.html"><div class="overlay">Car 1</div></a>
+    </div>
+  </div>
+
+   <div class="column car">
+    <div class="content">
+      <a href="alalacar2"><img src="car2.jpg" alt="" style="width: 300px; height: 180px;"></a>
+        <a href="alalacar2"><div class="overlay">Car 2</div></a>
+    </div>
+  </div>
+
+  <div class="column car">
+    <div class="content">
+      <a href="#"><img src="car3.jpg" alt="" style="width: 300px; height: 180px;"></a>
+        <a href="#"><div class="overlay">Car 3</div></a>
+    </div>
+  </div>
+
+  <div class="column car">
+    <div class="content">
+      <a href="#"><img src="car4.jpg" alt="" style="width: 300px; height: 180px;"></a>
+        <a href="#"><div class="overlay">Car 4</div></a>
+    </div>
+  </div>
+ 
+ <div class="column car">
+    <div class="content">
+      <a href="#"><img src="car5.jpg" alt="" style="width: 300px; height: 180px;"></a>
+        <a href="#"><div class="overlay">Car 5</div></a>
+    </div>
+  </div>
+
+  <div class="column motor">
+    <div class="content">
+     <a href="alalamotor1.html"><img src="motor1.jpg" alt="" style="width: 300px; height: 180px;"></a>
+     <a href="alalamotor1.html"><div class="overlay">Motorcycle 1</div></a>
+    </div>
+  </div>
+
+  <div class="column motor">
+    <div class="content">
+     <a href="alalamotor2.html"><img src="motor2.jpg" alt="" style="width: 300px; height: 180px;"></a>
+     <a href="alalamotor2.html"><div class="overlay">Motorcycle 2</div></a>
+    </div>
+  </div>
+
+  <div class="column motor">
+    <div class="content">
+     <a href="#"><img src="motor3.jpg" alt="" style="width: 300px; height: 180px;"></a>
+     <a href="#"><div class="overlay">Motorcycle 3</div></a>
+    </div>
+  </div>
+
+<div class="column motor">
+    <div class="content">
+     <a href="#"><img src="motor4.jpg" alt="" style="width: 300px; height: 180px;"></a>
+     <a href="#"><div class="overlay">Motorcycle 4</div></a>
+    </div>
+  </div>
+
+
+  <div class="column caterpillar">
+    <div class="content">
+      <a href="#"><img src="caterpillar.jpg" alt="" style="width: 300px; height: 180px;"></a>
+      <a href="#"><div class="overlay">Caterpillar 1</div></a>
+    </div>
+  </div>
+
+  <div class="column caterpillar">
+    <div class="content">
+      <a href="#"><img src="caterpillar2.jpg" alt="" style="width: 300px; height: 180px;"></a>
+      <a href="#"><div class="overlay">Caterpillar 2</div></a>
+    </div>
+  </div>
+
+   <div class="column caterpillar">
+    <div class="content">
+      <a href="#"><img src="caterpillar3.jpg" alt="" style="width: 300px; height: 180px;"></a>
+      <a href="#"><div class="overlay">Caterpillar 3</div></a>
+    </div>
+  </div>
+
+   <div class="column caterpillar">
+    <div class="content">
+      <a href="#"><img src="caterpillar4.jpg" alt="" style="width: 300px; height: 180px;"></a>
+      <a href="#"><div class="overlay">Caterpillar 4</div></a>
+    </div>
+  </div>
+
+   <div class="column caterpillar">
+    <div class="content">
+      <a href="#"><img src="caterpillar5.jpg" alt="" style="width: 300px; height: 180px;"></a>
+      <a href="#"><div class="overlay">Caterpillar 5</div></a>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+</div>
+
+   <footer class="foot-one">
+        <div class="row-1">
+            <h5>International Office</h5>
+                <ul>
+                    <li>Telp: +62 123456 789 Ext. 612</li>
+                    <li>Fax: +62 123456 789</li>
+                    <li>E-Mail: admin@healthygoal.co</li>
+                </ul>  
+        </div>
+
+        <div class="row-2">
+            <h5>Support</h5>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Help desk</a></li>
+                    <li><a href="#">Forums</a></li>
+                </ul>
+        </div>
+
+        <div class="coment">
+            <h5>Contact</h5>
+                <form action="#" method="post">
+                    <input type="text" name="email" placeholder="Email"><br/>
+                    <textarea name="message" placeholder="Message"></textarea><br/>
+                    <button>Send</button>
+                </form>
+        </div>
+
+        <div class="second-bar">
+           <div class="container">
+                <p>Copyright © 2018 ANJAY CORPORATION All Right Reserved.</p>
+                
+                <div class="social-icons">
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
+			</div>
+    </footer>
+
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+
+</body>
+</html>

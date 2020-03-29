@@ -1,0 +1,74 @@
+.main-ab{
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+.content-ab{
+  position: relative;
+  width: 18%;
+  height: 100%;
+  float: left;
+  margin: 1%;
+}
+.content-ab img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  
+}
+
+.overlay-ab {
+  position: absolute;
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%;
+  height: 30%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  padding: 2%;
+  text-align: center;
+  border-radius: 3%;
+  font-size: 100%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.content-ab:hover .overlay-ab  {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.overlay-ab:hover{
+  transition: 0.3s;
+}
+
+.content-ab:hover img {
+  filter:blur(1px) brightness(80%);
+  box-shadow:0 0 20px blue;
+}
+
+.middle-ab {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.content-ab:hover .middle-ab {
+  opacity: 1;
+}
+.text-ab{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 100%;
+}

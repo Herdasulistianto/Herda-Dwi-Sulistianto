@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body{
+	margin: 0;
+	padding: 0;
+}
+/* iki tak edit*/
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	padding: 10px 50px;
+	box-sizing: border-box;
+	transition: .3s;
+	background: rgba(11, 21, 32, 0.45);
+	z-index: 2;
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+nav .logo{
+	float: left;
+}
+
+nav .logo img{
+	height: 60px;
+	float: left;
+	transition: .3s;
+}
+
+nav ul{
+	list-style: none;
+	float: right;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+nav ul li{
+	list-style: none;
+	margin-right: 5px;
+}
+/* iki tak edit*/
+nav ul li a{
+	line-height: 80px;
+	color: white;
+	padding: 12px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transform: .3s;
+	font-family: 'Roboto', sans-serif;
+	border: 1px;
+	border-radius: 10px;
+}
+/* iki tak edit*/
+nav ul li a.mark,
+nav ul li a:hover{
+	color: #fff;
+	background: #1aa5d8;
+} 
+/* iki tak edit*/
+nav.black{
+	background: #0B1520;
+}
+
+/* iki tak edit*/
+nav.black ul li a{
+	color: #fff;
+} 
+/* iki tak edit*/
+nav ul li a:focus{
+	outline: none;
+}
+
+section .slider{
+  margin-bottom: 0; 
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+section .jargon{
+	margin-left: 220px;
+	color: white;
+	height: 144px;
+	font-size: 60px;
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	text-align: center;
+	width: 70%;
+	top: 500px;
+	text-shadow: 0 0 3px #339dc4, 0 0 5px #24708c;
+	background: rgba(11, 21, 32, 0.45);
+	border: 1px;
+	border-radius: 10px 10px 0px 0px;
+	overflow: hidden;
+	padding-top: 30px;
+}
+
+section .jargon button{
+	margin-left: 20px;
+	width: 25%;
+	height: 60px;
+	font-size: 28px;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #fff;
+	background: #0d8dbc;
+    border: 0;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+section .jargon button a{
+	color: #fff;
+	text-decoration: none;
+}
+
+section .jargon button:hover{
+	background:  #1aa5d8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

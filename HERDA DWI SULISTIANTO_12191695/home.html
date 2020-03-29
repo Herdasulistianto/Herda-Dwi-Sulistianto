@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<HTML Lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>home</title> 
+    <link rel="stylesheet" type="text/css" href="home/css/style.css">
+    <link rel="stylesheet" type="text/css" href="home/css/footer.css">
+    <script src="home/js/jquery-3.3.js"></script>
+    <script src="home/js/slider.js"></script>
+    <script>
+        $(window).on('scroll', function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('black');
+            }
+            else{
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="logo">
+            <img src="img/DPCO2.png" alt="">
+            </div>
+            <ul>
+                <li><a href="home.html" class="mark">Home</a></li>
+                <li><a href="kategori.html">Categotry</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        
+        <section>
+		<h4>njajal</h4>
+            <div class="slider">
+                <img class="mySlides" src="img/g1.jpg" alt="">
+                <img class="mySlides" src="img/g2.jpg" alt="">
+                <img class="mySlides" src="img/g3.jpg" alt="">
+            </div>
+            <div class="jargon">FIND YOUR AMAZING WALLPAPER
+            </div>
+        </section>
+    </div>
+
+    <footer class="foot-one">
+        <div class="row-1">
+            <h5>International Office</h5>
+                <ul>
+                    <li>Telp: +62 123456 789 Ext. 612</li>
+                    <li>Fax: +62 123456 789</li>
+                    <li>E-Mail: barbarpicture@wallpaper.co</li>
+                </ul>  
+        </div>
+
+        <div class="row-2">
+            <h5>Support</h5>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Help desk</a></li>
+                    <li><a href="#">Forums</a></li>
+                </ul>
+        </div>
+
+        <div class="coment">
+            <h5>Any Question ?</h5>
+                <form action="#" method="post">
+                    <input type="text" name="email" placeholder="Email"><br/>
+                    <textarea name="message" placeholder="Message"></textarea><br/>
+                    <button>Send</button>
+                </form>
+        </div>
+
+        <div class="second-bar">
+           <div class="container">
+		   <p>Copyright ©2020 HERDA DWI SULISTIANTO</p>
+		   </div>
+		   </div>
+    </footer>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+</script>
+</body>
+</html>
